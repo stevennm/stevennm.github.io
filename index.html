@@ -40,7 +40,7 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="index.html">Home</a>
+            <a class="nav-link js-scroll active" href="#home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#about">About</a>
@@ -49,7 +49,7 @@
 <!--            <a class="nav-link js-scroll" href="#service">Services</a>-->
 <!--          </li>-->
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Portfolio</a>
+            <a class="nav-link js-scroll" href="#portfolio">Portfolio</a>
           </li>
 <!--          <li class="nav-item">-->
 <!--            <a class="nav-link js-scroll" href="#blog">Blog</a>-->
@@ -70,7 +70,7 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="intro-title mb-4">I'm Steven Martins</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Industrial Engineering student.,Site under construction... :)</span><strong class="text-slider"></strong></p>
+          <p class="intro-subtitle"><span class="text-slider-items">Industrial Engineering student.</span><strong class="text-slider"></strong></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -161,7 +161,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="work" class="portfolio-mf sect-pt4 route">
+    <section id="portfolio" class="blog-mf sect-pt4 route">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -169,66 +169,59 @@
               <h3 class="title-a">
                 Portfolio
               </h3>
-<!--              <p class="subtitle-a">-->
-<!--                Lorem ipsum, dolor sit amet consectetur adipisicing elit.-->
-<!--              </p>-->
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col">
-            <div class="work-box">
-              <a href="assets/img/work-1.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+          <div class="col-md-4">
+            <div class="card card-blog work-box">
+              <div class="work-img">
+                  <a href="https://share.streamlit.io/stevennm/appone/master/appone.py" target="_blank" rel="noopener noreferrer"><img src="assets/img/work-1.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Data Science</h6>
+                  </div>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">MACD strategy advisor</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Data Science</span> / <span class="w-date">2020</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="macd_strat.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+                <h3 class="card-title"><a href="https://share.streamlit.io/stevennm/appone/master/appone.py" target="_blank" rel="noopener noreferrer">MACD strategy advisor</a></h3>
+                <p class="card-description">
+                  My first project. Here you'll see my attempt to build a program that calculates the MACD
+                  and its signal in order to advice whether or not to buy a stock.
+                </p>
+                <div class="post-date">
+                  <span class="ion-calendar"></span> 2020
                 </div>
               </div>
             </div>
           </div>
-          <div class="col">
-            <div class="work-box">
-              <a href="assets/img/work-2.jpg" data-gall="portfolioGallery" class="venobox">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+          <div class="col-md-4">
+            <div class="card card-blog work-box">
+              <div class="work-img">
+                  <a href="ovo_webpage.html" target="_blank" rel="noopener noreferrer"><img src="assets/img/work-2.jpg" alt="" class="img-fluid"></a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  <div class="card-category">
+                    <h6 class="category">Web Design</h6>
+                  </div>
                 </div>
-              </a>
-              <div class="work-content">
-                <div class="row">
-                  <div class="col-sm-8">
-                    <h2 class="w-title">OVO web page</h2>
-                    <div class="w-more">
-                      <span class="w-ctegory">Web Design</span> / <span class="w-date">2020</span>
-                    </div>
-                  </div>
-                  <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="ovo_webpage.html"> <span class="ion-ios-plus-outline"></span></a>
-                    </div>
-                  </div>
+                <h3 class="card-title"><a href="ovo_webpage.html" target="_blank" rel="noopener noreferrer">OVO web page</a></h3>
+                <p class="card-description">
+                  As I said, I'm currently studying in my last year of industrial engineering and so I have to create
+                  a real-world investment project as my final work. Here you can see the web page I designed for it.
+                </p>
+                <div class="post-date">
+                  <span class="ion-calendar"></span> 2020
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Blog Section -->
+
 
     <!-- ======= Contact Section ======= -->
     <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/overlay-bg.jpg)">
@@ -282,7 +275,7 @@
               Licensing information: https://bootstrapmade.com/license/
               Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
             -->
-              Design: <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Template: <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
           </div>
         </div>
